@@ -3,25 +3,26 @@ export const mainbio = "Hi, I’m Abhinav Singh, a passionate programmer and a s
 import placeholder from "../assets/projectimg/placeholder.jpg"
 import project1 from "../assets/projectimg/sdc.png"
 import project2 from "../assets/projectimg/portfolio.png"
+import project3 from "../assets/projectimg/hackthon.png"
 
 export const PROJECTS = [
     {
         title: "Self Driving Arduino Car",
         image: project1,
-        description: "Test description",
+        description: "An autonomous car prototype built using Arduino, equipped with ultrasonic sensors for obstacle detection and motor control for navigation. The car intelligently maneuvers around obstacles, demonstrating basic self-driving capabilities through real-time sensor feedback and decision-making algorithms.",
         technologies: ["C","C++"],
     },
     {
         title: "Portfolio Website",
         image: project2,
-        description: "Test description",
+        description: "A modern and interactive portfolio website built using React, Three.js, and Tailwind CSS This project showcases my skills and projects with a visually engaging 3D experience, smooth animations, and a responsive design for seamless navigation across devices.",
         technologies: ["JS", "React","Tailwind","Three.JS"],
     },
     {
-        title: "Coming Soon",
-        image: placeholder,
-        description: "Test description",
-        technologies: ["HTML", "CSS", "blabla"],
+        title: "Hackthon Website",
+        image: project3,
+        description: "A dynamic and responsive website built using React, Three.js, and Tailwind CSS for a hackathon project. It features an engaging 3D design, smooth animations, and an intuitive user experience, effectively presenting the event’s theme and objectives while ensuring seamless performance across devices.",
+        technologies: ["React", "Tailwind", "ThreeJs"],
     }
 ];
 export const CONTACT = {

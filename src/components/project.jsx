@@ -39,6 +39,14 @@ const Project = () => {
                          </motion.div>
                     </div>
                 ))}
+                    <div className="text-center font-bold tracking-tighter">
+                        <motion.p
+                        whileInView={{opacity: 1,x: 0}}
+                        initial={{opacity:1,x:-100}}
+                        transition={{dureation:0}}
+                        className="my-4 ">
+                            <a className="border-b" href="https://github.com/Not-Donno">More Projects On Github!</a></motion.p>
+                    </div>
             </div>
         </div>
     );
